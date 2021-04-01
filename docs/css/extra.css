@@ -4,6 +4,8 @@
 :root {
     --md-text-font-family: "Roboto";
     --md-code-font-family: "Roboto Mono";
+    --md-primary-fg-color: rgb(89, 117, 143);
+    --md-accent-fg-color: rgb(23, 91, 155);
 }
 
 /* Main Header */
@@ -17,6 +19,22 @@
     width: 60px;
     height: 25px;
     fill: currentColor;
+}
+
+.md-nav__title .md-nav__button.md-logo img, .md-nav__title .md-nav__button.md-logo svg {
+    display: block;
+    width: 60px;
+    height: 25px;
+    fill: currentColor;
+}
+
+.md-nav--primary .md-nav__title {
+    background-color: rgb(121, 121, 121);
+}
+
+.md-nav--primary .md-nav__title[for=__drawer] {
+    background-color: rgba(61, 102, 121, 0);
+    color:rgb(0, 0, 0)
 }
 
 /* Main background*/
