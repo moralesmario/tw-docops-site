@@ -1,11 +1,19 @@
-site_name: TW DocOps Site
+site_name: Mario Morales
 nav:
-  - Home: index.md
-  - About: about.md
+  - About Me: index.md
+  - Profile:
+    - Professional Experience: experience.md
+    - Education: education.md
+    - Courses and Certifications: certifications.md
 
 theme:
   name: material
-  palette:
-    primary: black
-    accent: indigo
-  logo: images/wizeline_isotype.png
+  # palette:
+  #    primary: black
+  #    accent: indigo
+  logo: images/wizeline.png
+  features:
+    - toc.integrate
+
+extra_css:
+  - css/extra.css
